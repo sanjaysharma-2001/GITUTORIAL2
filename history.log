@@ -1,0 +1,167 @@
+    1  git
+    2  git config --global user.name "sanjaysharma-2001"
+    3  git config --global user.email "sanjaysharma-2001@outlook.com"
+    4  git config --list
+    5  history
+    6  git status
+    7  git init
+    8  git status
+    9  git add --a
+   10  git status
+   11  git commit -m "initial commit"
+   12  git status
+   13  git log
+   14  git status
+   15  git status
+   16  git add "New Text Document.TXT"
+   17  git status
+   18  git add 
+   19  git add New Text Document.txt
+   20  git add "New Text Document.txt"
+   21  git status
+   22  git commit -m
+   23  git commit -m "commiting staged files"
+   24  got log
+   25  git log
+   26  rm -rf .git
+   27  git status
+   28  git clone https://github.com/sanjaysharma-2001/task-manager
+   29  history
+   30  pwd
+   31  ls
+   32  cd task-manager/
+   33  ls
+   34  git status
+   35  git status
+   36  git add --a
+   37  git status
+   38  git commit -m "changing readme file"
+   39  git status
+   40  git add --a
+   41  git status
+   42  git commit -m "changing js file"
+   43  git log
+   44  touch error.log
+   45  git status
+   46  touch .gitignore
+   47  git status
+   48  git status
+   49  git add --a
+   50  git status
+   51  git commit -m
+   52  git commit -m ""
+   53  git commit -m "test"
+   54  git status
+   55  git log
+   56  git status
+   57  git add --a
+   58  git commit -m "test"
+   59  git status
+   60  git status
+   61  git add --a
+   62  git status
+   63  git status
+   64  git def
+   65  git diff
+   66  git diff
+   67  git add .
+   68  git diff
+   69  git status
+   70  git add .
+   71  git diff -staged
+   72  git diff --staged
+   73  git commit -m "test"
+   74  git diff --staged
+   75  git diff --staged
+   76  git add --a
+   77  git diff --staged
+   78  git add --a
+   79  git status
+   80  git status
+   81  git add --a
+   82  git commit -a -m "direct commit"
+   83  git status
+   84  git rm test.txt
+   85  git status
+   86  git commit -m "removed test file "
+   87  git mv test2.txt test3.txt
+   88  git status
+   89  git commit -m "renamed test file "
+   90  git rm --cached test3.txt 
+   91  git status 
+   92  git add --a
+   93  git status 
+   94  git log -p
+   95  git log -p 2
+   96  git log -p -2
+   97  git log --stat
+   98  git log --stat
+   99  git log --pretty=oneline
+  100  git log --pretty=short
+  101  git log --pretty=full
+  102  git log --since=2.days
+  103  git log --since=2.min
+  104  history
+  105  git log --pretty=format:"%h--%an"
+  106  git log --pretty=format:"%ae--%an"
+  107  git log --pretty=format:"%e--%an"
+  108  git log --pretty=format:"%t--%an"
+  109  git log --pretty=format:"%h--%an"
+  110  git commit --amend
+  111  history
+  112  git status
+  113  ls
+  114  
+  115  git rm --cached test3.txt
+  116  git status
+  117  git commit -m "test file "
+  118  git status
+  119  git add .
+  120  git commit -m "test file "
+  121  git status
+  122  touch file1.txt
+  123  git status
+  124  git add .
+  125  git status
+  126  git restore --staged file1.txt 
+  127  git status
+  128  git add .
+  129  git commit -m "test file "
+  130  git checkout -- test3.txt
+  131  git checkout -f
+  132  git remote
+  133  pwd
+  134  cd ..
+  135  pwd
+  136  history
+  137  git init
+  138  git add .
+  139  git commit -m "add files"
+  140  git remote
+  141  git remote add origin https://github.com/sanjaysharma-2001/GITUTORIAL2.git
+  142  git remote
+  143  git remote -v
+  144  ssh-keygen -t ed25519 -C "sanjaysharma@outlook.com"
+  145  eval $(ssh-agent -S)
+  146  eval $(ssh-agent -s)
+  147  ssh-add ~/.ssh/id_rsa
+  148  ssh-keygen -t rsa -b 4096 -C "sanjaysharma@outlook.com"
+  149  eval $(ssh-agent -S)
+  150  eval $(ssh-agent -s)
+  151  ssh-add ~/.ssh/id_rsa
+  152  tail ./ssh/id_rsa.pub
+  153  tail ~/ssh/id_rsa.pub
+  154  tail ~/.ssh/id_rsa.pub
+  155  git push -u origin master
+  156  git push -u origin master
+  157  git status
+  158  git add .
+  159  git commit -m "new files"
+  160  git status
+  161  git push -u origin master
+  162  git config --global alias.st status
+  163  git st
+  164  git config --global alias.unstage 'restore --staged --'
+  165  git config --global alias.last 'log -p -1'
+  166  git last
+  167  history >history.log
